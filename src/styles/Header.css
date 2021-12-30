@@ -22,3 +22,36 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
+
+.header{
+    padding: 2rem 9%;
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.4rem rgba(0, 0, 0, .1);
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:10px;
+    margin-left: -80px;
+}
+
+.header .navbar a{
+    font-size: 16px;
+    color: var(--black);
+    margin-left: 4rem;
+}
+
+.header .navbar a:hover{
+    color: var(--blue);
+    border-top: 2px solid;
+    padding-top: 3.5rem;
+
+}

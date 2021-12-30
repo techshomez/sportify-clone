@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../images/hives';
 
 
 const Header = () => {
